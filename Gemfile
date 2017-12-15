@@ -54,3 +54,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'record_tag_helper', '~> 1.0'
 gem 'devise'
+# paging
+gem "kaminari"
