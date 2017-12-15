@@ -15,6 +15,7 @@
   <tbody>
     <% @posts.each do |post| %>
       <tr>
+        <td><%= get_email(post.author_id).email %></td>
         <td><%= post.author_id %></td>
         <td><%= post.title %></td>
         <td><%= post.body %></td>
