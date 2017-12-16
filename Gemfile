@@ -56,3 +56,5 @@ gem 'record_tag_helper', '~> 1.0'
 gem 'devise'
 # paging
 gem "kaminari"
+gem 'omniauth'
+gem 'omniauth-facebook'

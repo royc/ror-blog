@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :authors
+  devise_for :authors, controllers: { omniauth_callbacks: "omniauth_callbacks" }
   root :to => 'posts#index'
   resources :posts do
     resources :comments
